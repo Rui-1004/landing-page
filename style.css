@@ -7,7 +7,8 @@ body {
 }
 
 .header,
-.hero {
+.hero,
+.information {
   padding: 0px 210px;
 }
 
@@ -99,6 +100,8 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 25px;
+  padding-bottom: 80px;
 }
 
 .information-container {
@@ -122,8 +125,33 @@ a {
   border-radius: 18px;
 }
 
-.information-header {
+.information-header h2 {
   font-size: 36px;
   font-weight: 800;
+  color: #1F2937;
+}
+
+/* quote section */
+
+.quote  {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 350px 70px 350px;
+}
+
+.quote-text {
+  font-style: italic;
+  font-size: 36px;
+  color: #1F2937;
+  margin: 0;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: bold;
   color: #1F2937;
 }
